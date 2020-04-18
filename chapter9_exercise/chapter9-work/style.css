@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.contents {
+    padding: 50px 0;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.content {
+    width: 30%;
+    display: inline-block;
+    padding: 5px; 
+    position: relative; 
+}
+
+.space-between {
+    margin: 0 20px;
+}
+
+img {
+    width: 280px;
+}
+
+
+.first::after {
+    content: 'step1';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background-color: orange;
+    z-index: 1;
+    font-size: 12px;
+    padding: 2px;
+    color: white;
+    font-weight: 500;
+} 
+.second::after {
+    content: 'step2';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background-color: orange;
+    z-index: 1;
+    font-size: 12px;
+    padding: 2px;
+    color: white;
+    font-weight: 500;
+} 
+.third::after {
+    content: 'step3';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background-color: orange;
+    z-index: 1;
+    font-size: 12px;
+    padding: 2px;
+    color: white;
+    font-weight: 500;
+} 
+
+
